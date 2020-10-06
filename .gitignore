@@ -1,0 +1,5 @@
+vendor/
+composer.lock
+*.xcf
+wiki/
+.phpunit.result.cache
