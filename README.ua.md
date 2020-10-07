@@ -1,23 +1,23 @@
 ![header](https://raw.githubusercontent.com/martinjack/popolniclub/master/doc/header.png)
-## Description
+## Опис
 
 [![Latest Stable Version](https://poser.pugx.org/jackmartin/popolniclub/v)](//packagist.org/packages/jackmartin/popolniclub) [![Total Downloads](https://poser.pugx.org/jackmartin/popolniclub/downloads)](//packagist.org/packages/jackmartin/popolniclub) [![License](https://poser.pugx.org/jackmartin/popolniclub/license)](https://packagist.org/packages/popolniclub/justin)
 
-PHP library for working with API [PopolniClub](https://popolni.club/)
+PHP бібліотека для роботи з API [PopolniClub](https://popolni.club/)
 
 > Read this in other language: [English](README.en.md), [Русский](README.md), [Український](README.ua.md)
 
-> [Wiki - Description of the library](https://github.com/martinjack/popolniclub/wiki)
+> [Wiki - Опис роботи бібліотеки](https://github.com/martinjack/popolniclub/wiki)
 
-> [Testing](https://github.com/martinjack/popolniclub/wiki/Tests)
+> [Тестування](https://github.com/martinjack/popolniclub/wiki/Tests)
 
-# Documentation
+# Документація
 
 [API documentation](https://popolni.club/api.pdf)
 
-# Requirements
+# Вимоги
 
-* PHP 5.6 or higher
+* PHP 5.6 або вище
 * Composer
 
 # Composer
@@ -25,24 +25,24 @@ PHP library for working with API [PopolniClub](https://popolni.club/)
 composer require jackmartin/popolniclub
 ```
 
-# Libraries
+# Бібліотеки
 
 [Guzzle](https://github.com/guzzle/guzzle)
 
-# Basic methods API
+# Основні методи API
 
-1. Create payment
-    * [sendPayment - Example 1](https://github.com/martinjack/popolniclub#sendpayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-1)
-    * [sendPayment - Example 2](https://github.com/martinjack/popolniclub#sendpayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-2)
-    * [sendPayment - Example 3](https://github.com/martinjack/popolniclub#sendpayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-3)
-2. Payment status
-    * [statusPayment - Example 1](https://github.com/martinjack/popolniclub#statuspayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-1)
-    * [statusPayment - Example 2](https://github.com/martinjack/popolniclub#statuspayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-2)
-    * [statusPayment - Example 3](https://github.com/martinjack/popolniclub#statuspayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-3)
-3. Current balance
+1. Створити платіж
+    * [sendPayment - Приклад 1](https://github.com/martinjack/popolniclub#sendpayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-1)
+    * [sendPayment - Приклад 2](https://github.com/martinjack/popolniclub#sendpayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-2)
+    * [sendPayment - Приклад 3](https://github.com/martinjack/popolniclub#sendpayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-3)
+2. Статус платежу
+    * [statusPayment - Приклад 1](https://github.com/martinjack/popolniclub#statuspayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-1)
+    * [statusPayment - Приклад 2](https://github.com/martinjack/popolniclub#statuspayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-2)
+    * [statusPayment - Приклад 3](https://github.com/martinjack/popolniclub#statuspayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-3)
+3. Поточний баланс
     * [currentBalance](https://github.com/martinjack/popolniclub#currentbalance)
 
-# Examples
+# Приклади
 
 ### __construct()
 
@@ -51,7 +51,7 @@ require_once 'vendor/autoload.php';
 
 use PopolniClub\Pophone;
 
-$pophone = new Pophone('Your login', 'Your password API');
+$pophone = new Pophone('Ваш логін', 'Ваш пароль API');
 // $pophone = new Pophone();
 // $pophone
 //     ->setLogin()
@@ -67,17 +67,17 @@ require_once 'vendor/autoload.php';
 
 use PopolniClub\Pophone;
 
-$pophone = new Pophone('Your login', 'Your password API', true);
+$pophone = new Pophone('Ваш логін', 'Ваш пароль API', true);
 ```
 
-### sendPayment() - Example 1
+### sendPayment() - Приклад 1
 
 ```php
 require_once 'vendor/autoload.php';
 
 use PopolniClub\Pophone;
 
-$pophone = new Pophone('Your login', 'Your password API');
+$pophone = new Pophone('Ваш логін', 'Ваш пароль API');
 
 print_r(
 
@@ -98,14 +98,14 @@ print_r(
 
 ```
 
-### sendPayment() - Example 2
+### sendPayment() - Приклад 2
 
 ```php
 require_once 'vendor/autoload.php';
 
 use PopolniClub\Pophone;
 
-$pophone = new Pophone('Your login', 'Your password API');
+$pophone = new Pophone('Ваш логін', 'Ваш пароль API');
 
 print_r(
 
@@ -120,14 +120,14 @@ print_r(
 );
 ```
 
-### sendPayment() - Example 3
+### sendPayment() - Приклад 3
 
 ```php
 require_once 'vendor/autoload.php';
 
 use PopolniClub\Pophone;
 
-$pophone = new Pophone('Your login', 'Your password API');
+$pophone = new Pophone('Ваш логін', 'Ваш пароль API');
 
 foreach (
 
@@ -162,14 +162,14 @@ print_r(
 );
 ```
 
-### statusPayment() - Example 1
+### statusPayment() - Приклад 1
 
 ```php
 require_once 'vendor/autoload.php';
 
 use PopolniClub\Pophone;
 
-$pophone = new Pophone('Your login', 'Your password API');
+$pophone = new Pophone('Ваш логін', 'Ваш пароль API');
 
 print_r(
 
@@ -190,14 +190,14 @@ print_r(
 );
 ```
 
-### statusPayment() - Example 2
+### statusPayment() - Приклад 2
 
 ```php
 require_once 'vendor/autoload.php';
 
 use PopolniClub\Pophone;
 
-$pophone = new Pophone('Your login', 'Your password API');
+$pophone = new Pophone('Ваш логін', 'Ваш пароль API');
 
 print_r(
 
@@ -208,14 +208,14 @@ print_r(
 );
 ```
 
-### statusPayment() - Example 3
+### statusPayment() - Приклад 3
 
 ```php
 require_once 'vendor/autoload.php';
 
 use PopolniClub\Pophone;
 
-$pophone = new Pophone('Your login', 'Your password API');
+$pophone = new Pophone('Ваш логін', 'Ваш пароль API');
 
 foreach (
 
@@ -250,7 +250,7 @@ require_once 'vendor/autoload.php';
 
 use PopolniClub\Pophone;
 
-$pophone = new Pophone('Your login', 'Your password API');
+$pophone = new Pophone('Ваш логін', 'Ваш пароль API');
 
 print_r(
 
