@@ -32,13 +32,13 @@ composer require jackmartin/popolniclub
 # Basic methods API
 
 1. Create payment
-    * [sendPayment - Example 1](https://github.com/martinjack/popolniclub#sendpayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-1)
-    * [sendPayment - Example 2](https://github.com/martinjack/popolniclub#sendpayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-2)
-    * [sendPayment - Example 3](https://github.com/martinjack/popolniclub#sendpayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-3)
+    * [sendPayment - Example 1](https://github.com/martinjack/popolniclub/blob/master/README.en.md#sendpayment---example-1)
+    * [sendPayment - Example 2](https://github.com/martinjack/popolniclub/blob/master/README.en.md#sendpayment---example-2)
+    * [sendPayment - Example 3](https://github.com/martinjack/popolniclub/blob/master/README.en.md#sendpayment---example-3)
 2. Payment status
-    * [statusPayment - Example 1](https://github.com/martinjack/popolniclub#statuspayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-1)
-    * [statusPayment - Example 2](https://github.com/martinjack/popolniclub#statuspayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-2)
-    * [statusPayment - Example 3](https://github.com/martinjack/popolniclub#statuspayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-3)
+    * [statusPayment - Example 1](https://github.com/martinjack/popolniclub/blob/master/README.en.md#statuspayment---example-1)
+    * [statusPayment - Example 2](https://github.com/martinjack/popolniclub/blob/master/README.en.md#statuspayment---example-2)
+    * [statusPayment - Example 3](https://github.com/martinjack/popolniclub/blob/master/README.en.md#statuspayment---example-3)
 3. Current balance
     * [currentBalance](https://github.com/martinjack/popolniclub#currentbalance)
 

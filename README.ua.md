@@ -32,13 +32,13 @@ composer require jackmartin/popolniclub
 # Основні методи API
 
 1. Створити платіж
-    * [sendPayment - Приклад 1](https://github.com/martinjack/popolniclub#sendpayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-1)
-    * [sendPayment - Приклад 2](https://github.com/martinjack/popolniclub#sendpayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-2)
-    * [sendPayment - Приклад 3](https://github.com/martinjack/popolniclub#sendpayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-3)
+    * [sendPayment - Приклад 1](https://github.com/martinjack/popolniclub/blob/master/README.ua.md#sendpayment---%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4-1)
+    * [sendPayment - Приклад 2](https://github.com/martinjack/popolniclub/blob/master/README.ua.md#sendpayment---%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4-2)
+    * [sendPayment - Приклад 3](https://github.com/martinjack/popolniclub/blob/master/README.ua.md#sendpayment---%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4-3)
 2. Статус платежу
-    * [statusPayment - Приклад 1](https://github.com/martinjack/popolniclub#statuspayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-1)
-    * [statusPayment - Приклад 2](https://github.com/martinjack/popolniclub#statuspayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-2)
-    * [statusPayment - Приклад 3](https://github.com/martinjack/popolniclub#statuspayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-3)
+    * [statusPayment - Приклад 1](https://github.com/martinjack/popolniclub/blob/master/README.ua.md#statuspayment---%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4-1)
+    * [statusPayment - Приклад 2](https://github.com/martinjack/popolniclub/blob/master/README.ua.md#statuspayment---%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4-2)
+    * [statusPayment - Приклад 3](https://github.com/martinjack/popolniclub/blob/master/README.ua.md#statuspayment---%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4-3)
 3. Поточний баланс
     * [currentBalance](https://github.com/martinjack/popolniclub#currentbalance)
 
