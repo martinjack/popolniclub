@@ -1,4 +1,4 @@
-![header](doc/header.png)
+![header](https://raw.githubusercontent.com/martinjack/popolniclub/master/doc/header.png)
 ## Описание
 
 PHP библиотека для работы с API [PopolniClub](https://popolni.club/)
@@ -24,13 +24,13 @@ composer require jackmartin/popolniclub
 # Основные методы API
 
 1. Создать платёж
-    * [sendPayment - Пример 1](https://github.com/martinjack/popolniclub#sendpayment)
-    * [sendPayment - Пример 2](https://github.com/martinjack/popolniclub#sendpayment)
-    * [sendPayment - Пример 3](https://github.com/martinjack/popolniclub#sendpayment)
+    * [sendPayment - Пример 1](https://github.com/martinjack/popolniclub#sendpayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-1)
+    * [sendPayment - Пример 2](https://github.com/martinjack/popolniclub#sendpayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-2)
+    * [sendPayment - Пример 3](https://github.com/martinjack/popolniclub#sendpayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-3)
 2. Статус платежа
-    * [statusPayment - Пример 1](https://github.com/martinjack/popolniclub#statuspayment)
-    * [statusPayment - Пример 2](https://github.com/martinjack/popolniclub#statuspayment)
-    * [statusPayment - Пример 3](https://github.com/martinjack/popolniclub#statuspayment)
+    * [statusPayment - Пример 1](https://github.com/martinjack/popolniclub#statuspayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-1)
+    * [statusPayment - Пример 2](https://github.com/martinjack/popolniclub#statuspayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-2)
+    * [statusPayment - Пример 3](https://github.com/martinjack/popolniclub#statuspayment---%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80-3)
 3. Текущий баланс
     * [currentBalance](https://github.com/martinjack/popolniclub#currentbalance)
 
@@ -213,8 +213,8 @@ foreach (
 
         [
 
-            1601892250526,
-            1601892250526,
+            1000000001,
+            1000000002,
 
         ] as $id
 
