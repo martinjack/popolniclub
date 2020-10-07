@@ -1,7 +1,15 @@
 ![header](https://raw.githubusercontent.com/martinjack/popolniclub/master/doc/header.png)
 ## Описание
 
+[![Latest Stable Version](https://poser.pugx.org/jackmartin/popolniclub/v)](//packagist.org/packages/jackmartin/popolniclub) [![Total Downloads](https://poser.pugx.org/jackmartin/popolniclub/downloads)](//packagist.org/packages/jackmartin/popolniclub) [![License](https://poser.pugx.org/jackmartin/popolniclub/license)](https://packagist.org/packages/popolniclub/justin)
+
 PHP библиотека для работы с API [PopolniClub](https://popolni.club/)
+
+> Read this in other language: [English](README.en.md), [Русский](README.md), [Український](README.ua.md)
+
+> [Wiki - Описание работы библиотеки](https://github.com/martinjack/popolniclub/wiki)
+
+> [Тестирование](https://github.com/martinjack/popolniclub/wiki/Tests)
 
 # Документация
 
