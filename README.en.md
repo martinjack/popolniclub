@@ -40,7 +40,7 @@ composer require jackmartin/popolniclub
     * [statusPayment - Example 2](https://github.com/martinjack/popolniclub/blob/master/README.en.md#statuspayment---example-2)
     * [statusPayment - Example 3](https://github.com/martinjack/popolniclub/blob/master/README.en.md#statuspayment---example-3)
 3. Current balance
-    * [currentBalance](https://github.com/martinjack/popolniclub#currentbalance)
+    * [currentBalance](https://github.com/martinjack/popolniclub/blob/master/README.en.md#currentbalance)
 
 # Examples
 
