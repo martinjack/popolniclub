@@ -12,6 +12,13 @@ use PopolniClub\Exceptions\PophoneFieldsException;
 use PopolniClub\Exceptions\PophoneResponseException;
 use PopolniClub\Fields;
 
+/**
+ *
+ * Class Pophone
+ *
+ * @package PopolniClub\Pophone
+ *
+ */
 class Pophone extends Fields implements iPophone
 {
 

@@ -1,0 +1,13 @@
+<phpunit bootstrap="vendor/autoload.php" 
+        colors="true" 
+        verbose="true" 
+        executionOrder="depends,defects"
+        beStrictAboutCoversAnnotation="true"
+        beStrictAboutOutputDuringTests="true"
+        beStrictAboutTodoAnnotatedTests="true">
+    <testsuites>
+        <testsuite name="Tests library">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
